@@ -1,102 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
    <head>
-      <!-- basic -->
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Untree.co">
+      <link rel="shortcut icon" href="favicon.png">
 
-      <!-- site metas -->
       <title>@yield('title')</title>
-        <meta name="description" content="@yield('description')">
-        <meta name="Keywords" content="@yield('keywords')">
-      <meta name="author" content="">
+      <meta name="description" content="@yield('description')">
+      <meta name="Keywords" content="@yield('keywords')">
 
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="{{ asset('theme') }}/css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="{{ asset('theme') }}/css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="{{ asset('theme') }}/css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="{{ asset('theme') }}/images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="{{ asset('theme') }}/css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
-      <script src="{{ asset('theme') }}/https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="{{ asset('theme') }}/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="{{ asset('theme') }}/images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader --> 
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="head_top">
-               <div class="container">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-                        <ul class="sociel_link">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
-                     </ul>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-                        <p>long established fact that a reader will be </p>
-                    </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="{{ asset('theme') }}/images/logo.jpg" alt="logo"/></a> </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
-                  <div class="menu-area">
-                     <div class="limit-box">
-                        <nav class="main-menu">
-                           <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Home</a> </li>
-                              <li> <a href="about.html">About</a> </li>
-                              <li> <a href="product.html">product</a> </li>
-                              <li> <a href="blog.html"> Blog</a> </li>
-                              <li> <a href="contact.html">Contact</a> </li>
-                              <li class="mean-last"> <a href="#contact">signup</a> </li>
-                               
-                           </ul>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="#">Login</a></li>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner --> 
-      </header>
-      <!-- end header -->
+		<!-- Bootstrap CSS -->
+		<link href="{{ asset('theme') }}/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="{{ asset('theme') }}/css/tiny-slider.css" rel="stylesheet">
+		<link href="{{ asset('theme') }}/css/style.css" rel="stylesheet">
+		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar shadow-sm sticky-top navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+         <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('theme/images/logo-shri.png') }}" alt="Furni Logo" style="width: 150px;">
+         </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+    <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ url('/') }}">Home</a>
+        </li>
+
+        <!-- Product Dropdown with Submenus -->
+        <li class="nav-item dropdown main-dropdown">
+            <a class="nav-link dropdown-toggle {{ Request::is('product') ? 'active' : '' }}" href="#" id="productDropdown" role="button">
+                Product
+            </a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Burner Controls</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <li><a class="dropdown-item" href="{{ url('/gas-burner-honeywell') }}">Honeywell</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/gas-burner-kromschroeder') }}">Kromschroeder</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Flame Monitoring</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <li><a class="dropdown-item" href="{{ url('/flame-monitoring-honeywell') }}">Honeywell</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/flame-monitoring-kromschroeder') }}">Kromschroeder</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Gas Train Components</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <li><a class="dropdown-item" href="{{ url('/gas-train-components-honeywell') }}">Honeywell</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/gas-train-components-kromschroeder') }}">Kromschroeder</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/gas-train-components-maxon') }}">Maxon</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Ignition Transformer</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <li><a class="dropdown-item" href="{{ url('/ignition-transformer-honeywell') }}">Honeywell</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/ignition-transformer-kromschroeder') }}">Kromschroeder</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Industrial Burners</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <li><a class="dropdown-item" href="{{ url('/industrial-burners-kromschroeder') }}">kromschroeder</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/industrial-burners-maxon') }}">Maxon</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/industrial-burners-eclipse') }}">Eclipse</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Other Products</a>
+                    <ul class="dropdown-menu sub-dropdown">
+                        <!-- <li><a class="dropdown-item" href="{{ url('/industrial-burners-kromschroeder') }}">kromschroeder</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/industrial-burners-maxon') }}">Maxon</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/industrial-burners-eclipse') }}">Eclipse</a></li> -->
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ url('/about') }}">About us</a>
+        </li>
+        <!-- <li class="nav-item {{ Request::is('services') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ url('/services') }}">Services</a>
+        </li> -->
+        <!-- <li class="nav-item {{ Request::is('blog') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
+        </li> -->
+        <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
+            <a class="nav-link" href="{{ url('/contact') }}">Contact us</a>
+        </li>
+    </ul>
+
+    <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+        <li><a class="nav-link" href="#"><img src="{{ asset('theme') }}/images/user.svg"></a></li>
+        <li><a class="nav-link" href="cart.html"><img src="{{ asset('theme') }}/images/cart.svg"></a></li>
+    </ul>
+</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
 
       {{-- main content --}}
         <div class="main-content">
@@ -105,7 +122,5 @@
         {{-- end main content --}}
 
         @include('frontend.layouts.footer')
-
-
-    </body>
+   </body>
 </html>
