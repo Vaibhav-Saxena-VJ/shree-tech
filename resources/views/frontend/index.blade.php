@@ -1,347 +1,367 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services | Account Management Services")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Authorized distributors & Suppliers of Burner Controls")
+@section('keywords', "Authorized distributors & Suppliers of Burner Controls, Flame Monitoring System, Gas Train Components, Gas Train Burners.")
 
 @section('content')
-      <section class="slider_section">
-         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <img class="first-slide" src="{{ asset('theme') }}/images/banner2.jpg" alt="First slide">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <h1>Our <br> <strong class="black_bold">Latest </strong><br>
-                           <strong class="yellow_bold">Product </strong></h1>
-                        <p>It is a long established fact that a r <br>
-                          eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <img class="second-slide" src="{{ asset('theme') }}/images/banner2.jpg" alt="Second slide">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <h1>Our <br> <strong class="black_bold">Latest </strong><br>
-                           <strong class="yellow_bold">Product </strong></h1>
-                        <p>It is a long established fact that a r <br>
-                          eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <img class="third-slide" src="{{ asset('theme') }}/images/banner2.jpg" alt="Third slide">
-                  <div class="container">
-                     <div class="carousel-caption relative">
-                        <h1>Our <br> <strong class="black_bold">Latest </strong><br>
-                           <strong class="yellow_bold">Product </strong></h1>
-                        <p>It is a long established fact that a r <br>
-                          eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
-                     </div>
-                  </div>
-               </div>
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Welcome To <span clsas="d-block">Shritech Solutions</span></h1>
+								<p class="mb-4">Authorized distributors & Suppliers of Burner Controls, Flame Monitoring System, Gas Train Components, Gas Train Burners.</p>
+								<p><a href="" class="btn btn-secondary me-2">About us</a><a href="#" class="btn btn-white-outline">Contact</a></p>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="hero-img-wrap">
+								<img src="{{ asset('theme') }}/images/Gas-train.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
 
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class='fa fa-angle-right'></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class='fa fa-angle-left'></i>
-            </a>
-            
-         </div>
+		<!-- Start Product Section -->
+		<div class="product-section">
+			<div class="container">
+				<div class="row">
 
-      </section>
+					<!-- Start Column 1 -->
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+						<h2 class="mb-4 section-title">Burner Controller</h2>
+						<p class="mb-4">Honeywell Burner controls Distributors, Suppliers, Dealers and Traders in India. </p>
+						<p><a href="{{ url('/gas-burner-honeywell') }}" class="btn">Explore</a></p>
+					</div> 
+					<!-- End Column 1 -->
 
+					<!-- Start Column 2 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{{ asset('theme') }}/images/burner-control/hburner1.webp" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Honeywell 7800 Series Burner</h3>
+						</a>
+					</div> 
+					<!-- End Column 2 -->
 
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{{ asset('theme') }}/images/burner-control/hburner2.webp" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Honeywell DBC Series Burner</h3>							
+						</a>
+					</div>
+					<!-- End Column 3 -->
 
-<!-- CHOOSE  -->
-      <div class="whyschose">
-         <div class="container">
+					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{{ asset('theme') }}/images/burner-control/hburner4.webp" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Honeywell Flame Switches</h3>							
+						</a>
+					</div>
+					<!-- End Column 4 -->
 
-            <div class="row">
-               <div class="col-md-7 offset-md-3">
-                  <div class="title">
-                     <h2>Why <strong class="black">choose us</strong></h2>
-                     <span>Fastest repair service with best price!</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="choose_bg">
-         <div class="container">
-            <div class="white_bg">
-            <div class="row">
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="{{ asset('theme') }}/icon/1.png"/></i>
-                     <h3>Data recovery</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                  </div>
-               </dir>
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="{{ asset('theme') }}/icon/2.png"/></i>
-                     <h3>Computer repair</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                  </div>
-               </dir>
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="{{ asset('theme') }}/icon/3.png"/></i>
-                     <h3>Mobile service</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                  </div>
-               </dir>
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="{{ asset('theme') }}/icon/4.png"/></i>
-                     <h3>Network solutions</h3>
-                     <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                  </div>
-               </dir>
-               <div class="col-md-12">
-                  <a class="read-more">Read More</a>
-               </div>
-            </div>
-         </div>
-       </div>
-      </div>
-<!-- end CHOOSE -->
+				</div>
+			</div>
+		</div>
+		<!-- End Product Section -->
 
-      <!-- service --> 
-      <div class="service">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <div class="title">
-                     <h2>Service <strong class="black">Process</strong></h2>
-                     <span>Easy and effective way to get your device repair</span>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service1.png"/></i>
-                     <h3>Fast service</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service2.png"/></i>
-                     <h3>Secure payments</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service3.png"/></i>
-                     <h3>Expert team</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service4.png"/></i>
-                     <h3>Affordable services</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service5.png"/></i>
-                     <h3>90 Days warranty</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <i><img src="{{ asset('theme') }}/icon/service6.png"/></i>
-                     <h3>Award winning</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end service -->
+		<!-- Start Why Choose Us Section -->
+		<div class="why-choose-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h2 class="section-title">Why Choose Us</h2>
+						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
 
-      <!-- our product -->
-      <div class="product">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="title">
-                     <h2>our <strong class="black">products</strong></h2>
-                     <span>We package the products with best services to make you a happy customer.</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="product-bg">
-         <div class="product-bg-white">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p1.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p2.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p3.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p4.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p5.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p2.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p6.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="{{ asset('theme') }}/icon/p7.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-              
-              
-              
-               
-               </div>
-            </div>
-         </div>
-         <div class="Clients_bg_white">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="title">
-                        <h3>What Clients Say?</h3>
-                     </div>
-                  </div>
-               </div>
-               <div id="client_slider" class="carousel slide banner_Client" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#client_slider" data-slide-to="0" class="active"></li>
-          <li data-target="#client_slider" data-slide-to="1"></li>
-          <li data-target="#client_slider" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="carousel-caption text-bg">
-               <div class="img_bg">
-                  <i><img src="{{ asset('theme') }}/images/lllll.png"/><span>Jone Due<br><strong class="date">12/02/2019</strong></span></i>
-                  
-               </div>
-                
-                <p>You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am really satisfied with my first laptop service.<br>
-                You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am </p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="carousel-caption text-bg">
-                <div class="img_bg">
-                  <i><img src="{{ asset('theme') }}/images/lllll.png"/><span>Jone Due<br><strong class="date">12/02/2019</strong></span></i>
-                  
-               </div>
-                <p>You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am really satisfied with my first laptop service.<br>
-                You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am </p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="carousel-caption text-bg">
-                 <div class="img_bg">
-                  <i><img src="{{ asset('theme') }}/images/lllll.png"/><span>Jone Due<br><strong class="date">12/02/2019</strong></span></i>
-                  
-               </div>
-                <p>You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am really satisfied with my first laptop service.<br>
-                You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I wish I would have thought of it first. I am </p>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+						<div class="row my-5">
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{{ asset('theme') }}/images/truck.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Authorized Partnership</h3>
+									<p>We are an authorized channel partner of Honeywell Automation India Ltd, ensuring reliable and high-quality combustion and thermal solutions.</p>
+								</div>
+							</div>
 
-            </div>
-         </div>
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{{ asset('theme') }}/images/bag.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Industry Expertise</h3>
+									<p>With extensive experience, we excel in designing and supplying combustion control products across multiple industries, including metal processing and more.</p>
+								</div>
+							</div>
 
-         <div class="container">
-            <div class="yellow_bg">
-            <div class="row">
-               <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                  <div class="yellow-box">
-                     <h3>REQUEST A FREE QUOTE<i><img src="{{ asset('theme') }}/icon/calll.png"/></i></h3>
-                     
-                     <p>Get answers and advice from people you want it from.</p>
-                  </div>
-               </div>
-                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                  <div class="yellow-box">
-                     <a href="#">Get  Quote</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         </div>
-      </div>
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{{ asset('theme') }}/images/support.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Comprehensive Solutions</h3>
+									<p>We provide complete solutions for various industrial process heating applications, such as furnaces, boilers, incinerators, and kilns.</p>
+								</div>
+							</div>
 
-      <!-- end our product -->
-      <!-- map -->
-      <div class="container-fluid padi">
-         <div class="map">
-            <img src="{{ asset('theme') }}/images/mapimg.jpg" alt="img"/>
-         </div>
-      </div>
-      <!-- end map --> 
-      <!--  footer --> 
-      @endsection
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{{ asset('theme') }}/images/return.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Value-Added Services</h3>
+									<p>Our offerings include engineering services, installation support, stock and sale of standard products, and AMC for burner services for long-term maintenance.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="img-wrap">
+							<img src="{{ asset('theme') }}/images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Why Choose Us Section -->
+
+		<!-- Start We Help Section -->
+		<div class="we-help-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 mb-5 mb-lg-0">
+						<div class="imgs-grid">
+							<div class="grid grid-1"><img src="{{ asset('theme') }}/images/img-grid-1.jpg" alt="Untree.co"></div>
+							<div class="grid grid-2"><img src="{{ asset('theme') }}/images/banner2.png" alt="Untree.co"></div>
+							<div class="grid grid-3"><img src="{{ asset('theme') }}/images/img-grid-3.jpg" alt="Untree.co"></div>
+						</div>
+					</div>
+					<div class="col-lg-5 ps-lg-5">
+						<h2 class="section-title mb-4">WHO WE ARE</h2>
+						<p>We Shritech Solutions are Authorised Distributors of Burner Controls,Flame Monitoring,Gas Train Components, Gas Train Burners,Ignition Transformer, Industrial Burners, Industrial Customize Gas Burner for Heat Treatment, Industrial gas burners for furnaces india</p>
+
+						<ul>
+							<li>Authorized Channel Partner of Honeywell Automation India Ltd for Industrial and Combustion Thermal.</li>
+							<li>Extensive experience in the design and supply of combustion control products in Metal Processing, Automotive, FoodProcessing, Glass, Textile, Cement & Ceramic industry.</li>
+							<li>Complete solution offering for Industrial Process Heating applications such as furnace, Boilers, Incinerators, Kilns, Smelters, Dryers etc.</li>
+							<li>Engineering services and installation support.</li>
+							<li>Stock and sale of Regular standard products.</li>
+							<li>Value added Services like AMC for Burner Services.</li>
+						</ul>
+						<p><a herf="#" class="btn">Get in touch</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End We Help Section -->
+
+		<!-- Start Popular Product -->
+		<div class="popular-product">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="{{ asset('theme') }}/images/gas3.png" alt="Image" class="img-fluid">
+							</div>
+							<div class="pt-3">
+								<h3>Nordic Chair</h3>
+								<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio </p>
+								<p><a href="#">Read More</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="{{ asset('theme') }}/images/gas3.png" alt="Image" class="img-fluid">
+							</div>
+							<div class="pt-3">
+								<h3>Kruzo Aero Chair</h3>
+								<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio </p>
+								<p><a href="#">Read More</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="{{ asset('theme') }}/images/gas3.png" alt="Image" class="img-fluid">
+							</div>
+							<div class="pt-3">
+								<h3>Ergonomic Chair</h3>
+								<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio </p>
+								<p><a href="#">Read More</a></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Popular Product -->
+
+		<!-- Start Testimonial Slider -->
+		<div class="testimonial-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 mx-auto text-center">
+						<h2 class="section-title">Testimonials</h2>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<div class="testimonial-slider-wrap text-center">
+
+							<div id="testimonial-nav">
+								<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
+								<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
+							</div>
+
+							<div class="testimonial-slider">
+								
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{{ asset('theme') }}/images/person-1.png" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Maria Jones</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div> 
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{{ asset('theme') }}/images/person-1.png" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Maria Jones</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div> 
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>&ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{{ asset('theme') }}/images/person-1.png" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Maria Jones</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div> 
+								<!-- END item -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Testimonial Slider -->
+
+		<!-- Start Blog Section -->
+		<div class="blog-section">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md-6">
+						<h2 class="section-title">Recent Blog</h2>
+					</div>
+					<div class="col-md-6 text-start text-md-end">
+						<a href="#" class="more">View All Posts</a>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="{{ asset('theme') }}/images/post-1.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">First Time Home Owner Ideas</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="{{ asset('theme') }}/images/post-2.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="{{ asset('theme') }}/images/post-3.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Blog Section -->
+@endsection
