@@ -8,14 +8,12 @@
 			<div class="hero">
 				<div class="container">
 					<div class="row justify-content-between">
-						<div class="col-lg-5">
+						<div class="col-lg-6">
 							<div class="intro-excerpt">
 								<h1>Contact</h1>
-								<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-								<p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
 							</div>
 						</div>
-						<div class="col-lg-7">
+						<div class="col-lg-6 d-none">
 							<div class="hero-img-wrap">
 								<img src="{{ asset('theme/images/couch.png')}}" class="img-fluid">
 							</div>
@@ -27,16 +25,11 @@
 
 		
 		<!-- Start Contact Form -->
-		<div class="untree_co-section">
+		<div class="untree_co-section ">
       <div class="container">
-
         <div class="block">
           <div class="row justify-content-center">
-
-
-            <div class="col-md-8 col-lg-8 pb-4">
-
-
+            <div class="col-md-8 col-lg-8">
               <div class="row mb-5">
                 <div class="col-lg-4">
                   <div  class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
@@ -105,17 +98,12 @@
 
                 <button type="submit" class="btn btn-primary-hover-outline">Send Message</button>
               </form>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
-
     </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.28461716539!2d73.90975497465313!3d18.56120286793284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1747301006327!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <!-- End Contact Form -->
